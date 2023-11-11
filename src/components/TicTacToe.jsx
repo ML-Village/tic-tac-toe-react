@@ -107,7 +107,9 @@ function TicTacToe() {
 
   return (
     <div>
-      <h1>Tic Tac Toe</h1>
+      <h1 className="font-bold text-4xl text-[#28286B]
+      my-8
+      ">Stark Tac Toe</h1>
       <Board
         playerTurn={playerTurn}
         tiles={tiles}
